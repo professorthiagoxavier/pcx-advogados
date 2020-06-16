@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projeto\\pcx\\pcx.csproj",
+      "projectUniqueName": "C:\\projeto\\pcx-advogados\\pcx.csproj",
       "projectName": "pcx",
-      "projectPath": "C:\\projeto\\pcx\\pcx.csproj",
+      "projectPath": "C:\\projeto\\pcx-advogados\\pcx.csproj",
       "packagesPath": "C:\\Users\\thiago.xavier\\.nuget\\packages\\",
-      "outputPath": "C:\\projeto\\pcx\\obj\\",
+      "outputPath": "C:\\projeto\\pcx-advogados\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
