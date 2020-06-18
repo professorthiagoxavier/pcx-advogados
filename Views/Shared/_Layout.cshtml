@@ -53,6 +53,20 @@
     <script src="~/assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="~/js/scripts.js"></script>
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+</script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('cGN4YXRlbmRpbWVudG86YjA4ZDU4ZGMtYmQxZC00ZmVlLTk1ZjQtNTEwZTA3YjE5NGY3')
+            .withButton({"color":"#2CC3D5","icon":""})
+            .withCustomCommonUrl('https://chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
+                                
     @RenderSection("Scripts", required: false)
 </body>
 </html>
